@@ -25,9 +25,10 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Warm orange/gold to match assets/terminal.svg and natlee.github.io
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#d4741e&color_dots=#ebedf0,#fed7aa,#fdba74,#f97316,#c2410c
+            dist/github-snake-dark.svg?color_snake=#e6b800&color_dots=#161b22,#7c2d12,#c2410c,#ea580c,#fb923c
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v5
