@@ -1,90 +1,78 @@
-<div align="center">
-
-<img src="https://i.imgur.com/tdO8neM.gif" alt="A winking chibi character (art by seseren)" width="180" />
-
-# Hi, I'm Nat Lee 👋
-
-**Senior Software Engineer & AI Specialist** · Backend · Machine Learning · Taipei, Taiwan
-
-*🔆 A wandering software engineer with nothing.*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-natlee.github.io-222222?style=flat-square&logo=githubpages&logoColor=white)](https://natlee.github.io)
-[![Blog](https://img.shields.io/badge/Blog-Hexo-0E83CD?style=flat-square&logo=hexo&logoColor=white)](https://natlee.github.io/Blog/)
-[![Medium](https://img.shields.io/badge/Medium-@natlee__-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@natlee_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nat_Lee-0A66C2?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D)](https://www.linkedin.com/in/nat-lee-726525ba/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-natlee-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/natlee)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-NatLee-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/NatLee)
-
-</div>
-
-## 🧑‍💻 About me
-
-- ⚡ Currently building **power-trading systems for Japan's electricity market**: market and weather data platforms, bidding tools, and spot-price forecasting.
-- 🧠 Since 2018 I've worked on **backend services** (Django, FastAPI), **NLP**, **computer vision** and **time-series forecasting**, from sentiment analysis over 3B+ records to brain MRI preprocessing and solar-power prediction.
-- 🐳 After hours I build **self-hosted DevOps tools**: reverse SSH tunnel managers, Docker dev sandboxes and web terminals.
-- 🛠️ I'd rather learn existing tools deeply than reinvent the wheel.
-- 🗣️ 中文 (native) · 日本語 (JLPT N1) · English
-- 🎓 M.S. in Computer Science, NTUST
-
-## 🧰 Tech stack
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,django,fastapi,flask,pytorch,tensorflow,opencv,ts,react,nextjs,rust,docker,kubernetes,nginx,linux,githubactions,postgres,mysql,elasticsearch,redis,mongodb&perline=11" alt="Python, Django, FastAPI, Flask, PyTorch, TensorFlow, OpenCV, TypeScript, React, Next.js, Rust, Docker, Kubernetes, Nginx, Linux, GitHub Actions, PostgreSQL, MySQL, Elasticsearch, Redis, MongoDB" />
+  <img src="./assets/terminal.svg" width="100%" alt="A zsh session on natlee@mainframe. whoami prints: Nat Lee, a wandering software engineer with nothing, Taipei, Taiwan. cat now.txt prints: building power-trading systems for Japan's electricity market: market and weather data pipelines, bidding tools, spot-price forecasts. echo $COMPANY prints: 'NoneType' object has no attribute. sleep forever prints: sleep: invalid time interval 'forever'." />
 </p>
 
-## 🚀 Featured projects
+<p align="center">
+  <a href="https://natlee.github.io">natlee.github.io</a> ·
+  <a href="https://natlee.github.io/Blog/">blog</a> ·
+  <a href="https://medium.com/@natlee_">medium</a> ·
+  <a href="https://www.linkedin.com/in/nat-lee-726525ba/">linkedin</a> ·
+  <a href="https://www.kaggle.com/natlee">kaggle</a> ·
+  <a href="https://huggingface.co/NatLee">hugging face</a>
+</p>
 
-**🛠️ DevOps & self-hosted tools**
+<img align="right" width="150" src="https://i.imgur.com/tdO8neM.gif" alt="A winking chibi character (art by seseren)" />
 
-| Project | Description | Stars |
-| --- | --- | --- |
-| [telepy](https://github.com/NatLee/telepy) | Manage and monitor reverse SSH tunnels and jump servers from a web UI, with a browser terminal | ![](https://img.shields.io/github/stars/NatLee/telepy?style=flat-square&label=%E2%98%85) |
-| [dev-dock-manager-rust](https://github.com/NatLee/dev-dock-manager-rust) | Multi-user Docker dev environments with web terminal and noVNC; Rust API, Next.js UI, Traefik | ![](https://img.shields.io/github/stars/NatLee/dev-dock-manager-rust?style=flat-square&label=%E2%98%85) |
-| [django-docker-gui](https://github.com/NatLee/django-docker-gui) | Web UI for managing Docker images and containers, with a fully working terminal | ![](https://img.shields.io/github/stars/NatLee/django-docker-gui?style=flat-square&label=%E2%98%85) |
+I started out in 2018 writing crawlers and NLP models, spent a few years on computer vision and medical imaging, and now work on data platforms and forecasting for electricity trading. Backend work in Python is home base.
 
-**🖼️ Computer vision & image tools**
+Most of what I build now, I build together with AI coding agents. I decide what to make, how the pieces fit and whether it actually works; the agent writes a lot of the code, and I read every change before it ships. That's how a backend person ends up with repos in TypeScript and Rust.
 
-| Project | Description | Stars |
-| --- | --- | --- |
-| [Batch-crop-images](https://github.com/NatLee/Batch-crop-images) | Crop a batch of similar images at once through a GUI | ![](https://img.shields.io/github/stars/NatLee/Batch-crop-images?style=flat-square&label=%E2%98%85) |
-| [Blur-Generator](https://github.com/NatLee/Blur-Generator) | Generate motion, lens and Gaussian blur with OpenCV | ![](https://img.shields.io/github/stars/NatLee/Blur-Generator?style=flat-square&label=%E2%98%85) |
-| [nipype-preprocess-on-brain-MR](https://github.com/NatLee/nipype-preprocess-on-brain-MR) | Brain MR image preprocessing pipeline built on Nipype | ![](https://img.shields.io/github/stars/NatLee/nipype-preprocess-on-brain-MR?style=flat-square&label=%E2%98%85) |
-| [fisheye-warping](https://github.com/NatLee/fisheye-warping) | Dewarp top-down fisheye images into panoramas, and back | ![](https://img.shields.io/github/stars/NatLee/fisheye-warping?style=flat-square&label=%E2%98%85) |
+中文 is my first language. I also work in Japanese (JLPT N1) and English.
 
-**📦 Packages & plugins**
+<br clear="right" />
 
-| Project | Description | Usage |
-| --- | --- | --- |
-| [HEIC2PNG](https://github.com/NatLee/HEIC2PNG) | Convert HEIC images to PNG, on PyPI | ![](https://img.shields.io/pypi/dm/heic2png?style=flat-square&label=downloads) |
-| [PyppeSnap](https://github.com/NatLee/PyppeSnap) | Take website snapshots with Pyppeteer, on PyPI | ![](https://img.shields.io/pypi/v/pyppesnap?style=flat-square&label=pypi) |
-| [Django-Simple-API-Proxy](https://github.com/NatLee/Django-Simple-API-Proxy) | Proxy any API through a Django server, on PyPI | ![](https://img.shields.io/pypi/v/django-simple-api-proxy?style=flat-square&label=pypi) |
-| [obsidian-attachmenter](https://github.com/NatLee/obsidian-attachmenter) | Obsidian plugin for managing attachments | ![](https://img.shields.io/github/stars/NatLee/obsidian-attachmenter?style=flat-square&label=%E2%98%85) |
+### Where I've been
 
-<sub>More on my [portfolio](https://natlee.github.io/projects) and [repositories](https://github.com/NatLee?tab=repositories&type=source).</sub>
+- `2024` Power trading for the Japanese and Australian markets. Since 2026 I lead the trading data platform, including three months on-site in Tokyo.
+- `2023` Solar-generation forecasting, and a power-matching algorithm brought down from O(N⁴) to O(N³) with max-flow.
+- `2021` Sentiment analysis over 3 billion+ social-media records.
+- `2019` Brain MRI/PET preprocessing for Alzheimer's diagnosis, and pose estimation from fisheye cameras on Jetson boards.
+- `2018` Social-media crawlers, a Chinese reading-comprehension service, and Taiwanese Hokkien song recognition for smart speakers.
 
-## 🤝 Open-source contributions
+### Things I've made
 
-- **[jeanp413/open-remote-ssh](https://github.com/jeanp413/open-remote-ssh/pulls?q=is%3Apr+author%3ANatLee+is%3Amerged)**: 8 merged PRs, including listing configured hosts in *Connect to Host*, verifying host keys against `known_hosts`, and ProxyJump fixes
-- **[serengil/deepface](https://github.com/serengil/deepface/pull/1396)**: batch prediction for age and gender
-- **[tensorflow/models](https://github.com/tensorflow/models/pull/6587)**: compatibility fix for newer TensorFlow and Python 3
-- **[nipy/nipype](https://github.com/nipy/nipype/pull/3107)**: documentation fix
+**Self-hosted tools**
 
-## 📊 GitHub stats
+- [telepy](https://github.com/NatLee/telepy) manages reverse SSH tunnels and jump servers from the browser, terminal included.
+- [dev-dock-manager-rust](https://github.com/NatLee/dev-dock-manager-rust) gives everyone on one machine their own Docker dev box, with a web terminal and noVNC.
+- [django-docker-gui](https://github.com/NatLee/django-docker-gui) is a web UI for Docker images and containers.
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=NatLee&show_icons=true&hide_border=true&theme=github_dark&cache_seconds=86400" />
-    <img height="180" alt="Nat's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=NatLee&show_icons=true&hide_border=true&cache_seconds=86400" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=NatLee&layout=compact&langs_count=8&exclude_repo=claude-projects&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,batchfile,powershell&card_width=320&hide_border=true&theme=github_dark&cache_seconds=86400" />
-    <img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=NatLee&layout=compact&langs_count=8&exclude_repo=claude-projects&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,batchfile,powershell&card_width=320&hide_border=true&cache_seconds=86400" />
-  </picture>
-</div>
+**Images**
 
-<div align="center">
+- [Batch-crop-images](https://github.com/NatLee/Batch-crop-images) crops a pile of similar images in one pass.
+- [Blur-Generator](https://github.com/NatLee/Blur-Generator) makes motion, lens and Gaussian blur with OpenCV.
+- [fisheye-warping](https://github.com/NatLee/fisheye-warping) turns top-down fisheye shots into panoramas, and back.
+- [nipype-preprocess-on-brain-MR](https://github.com/NatLee/nipype-preprocess-on-brain-MR) is a brain MR preprocessing pipeline built on Nipype.
+
+**Small utilities**
+
+- [HEIC2PNG](https://github.com/NatLee/HEIC2PNG) converts iPhone photos to PNG, on [PyPI](https://pypi.org/project/HEIC2PNG/).
+- [obsidian-attachmenter](https://github.com/NatLee/obsidian-attachmenter) keeps Obsidian attachments tidy.
+- [lets-copy](https://github.com/NatLee/lets-copy) is a Chrome extension that brings copy back to sites that block it.
+
+**For fun**
+
+- [Play-QWOP-by-Using-AI-Agent](https://github.com/NatLee/Play-QWOP-by-Using-AI-Agent): an actor-critic agent learning to run in QWOP, reading its own score with OCR.
+- [GURA](https://github.com/NatLee/GURA-gru-unit-for-recognizing-affect): a BiGRU sentiment model trained on [MyAnimeList reviews](https://www.kaggle.com/datasets/natlee/myanimelist-comment-dataset) I [scraped myself](https://github.com/NatLee/MyAnimeList-comment-crawler).
+- zh-TW translations for [poi](https://github.com/poooi/poi), the KanColle browser, and its plugins.
+
+### Upstream
+
+- [open-remote-ssh](https://github.com/jeanp413/open-remote-ssh/pulls?q=is%3Apr+author%3ANatLee+is%3Amerged): 8 merged PRs, including the host list in *Connect to Host*, `known_hosts` verification and ProxyJump fixes.
+- [deepface](https://github.com/serengil/deepface/pull/1396): batch age and gender prediction.
+- [tensorflow/models](https://github.com/tensorflow/models/pull/6587): fixes for newer TensorFlow and Python 3.
+- [nipype](https://github.com/nipy/nipype/pull/3107): a docs fix.
+
+<br />
+
+<p align="center">
+  <img height="180" alt="Nat's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=NatLee&show_icons=true&bg_color=121212&title_color=d4741e&text_color=bdbdbd&icon_color=e6b800&border_color=2a2a2a&border_radius=10&cache_seconds=86400" />
+  <img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=NatLee&layout=compact&langs_count=8&exclude_repo=claude-projects&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,batchfile,powershell&card_width=320&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10&cache_seconds=86400" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NatLee/natlee/output/github-snake-dark.svg" />
     <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/NatLee/natlee/output/github-snake.svg" />
   </picture>
-</div>
+</p>
