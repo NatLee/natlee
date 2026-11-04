@@ -93,8 +93,8 @@ Most of what I build now, I build together with AI coding agents. I decide what 
 <br />
 
 <p align="center">
-  <img height="180" alt="Nat's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=NatLee&show_icons=true&icon_color=e6b800&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10&cache_seconds=86400" />
-  <img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=NatLee&layout=compact&langs_count=8&exclude_repo=claude-projects&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,batchfile,powershell&card_width=320&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10&cache_seconds=86400" />
+  <img height="180" alt="Nat's GitHub stats" src="https://raw.githubusercontent.com/NatLee/natlee/output/github-stats.svg" />
+  <img height="180" alt="Most used languages" src="https://raw.githubusercontent.com/NatLee/natlee/output/top-langs.svg" />
 </p>
 
 <p align="center">
