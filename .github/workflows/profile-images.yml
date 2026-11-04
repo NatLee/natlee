@@ -1,0 +1,75 @@
+# Draws every generated image shown in README.md (contribution snake, stats
+# card, top languages card) and publishes them to the `output` branch.
+#
+# All images must be built in this one job: the publish step replaces the
+# whole `output` branch with `dist/`, so a second workflow publishing there
+# would wipe out the other's files.
+name: Generate profile images
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # daily, 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+  # A PR that touches this file renders the images without publishing them,
+  # so a broken option shows up before merge.
+  pull_request:
+    paths: [.github/workflows/profile-images.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-images-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Warm orange/gold to match assets/terminal.svg and natlee.github.io
+          outputs: |
+            dist/github-snake.svg?color_snake=#d4741e&color_dots=#ebedf0,#fed7aa,#fdba74,#f97316,#c2410c
+            dist/github-snake-dark.svg?color_snake=#e6b800&color_dots=#161b22,#7c2d12,#c2410c,#ea580c,#fb923c
+
+      # The public github-readme-stats.vercel.app instance is paused, so the
+      # cards are rendered here instead. Same dark palette as before.
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&icon_color=e6b800&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10
+          path: dist/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&exclude_repo=claude-projects&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,batchfile,powershell&card_width=320&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Keep the PR preview
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v7
+        with:
+          name: profile-images
+          path: dist/
+
+      - name: Publish to the output branch
+        if: github.event_name != 'pull_request'
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

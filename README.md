@@ -61,21 +61,21 @@ Most of what I build now, I build together with AI coding agents. I decide what 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/NatLee/Blur-Generator"><b>Blur-Generator</b></a>&nbsp; <a href="https://github.com/NatLee/Blur-Generator/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/Blur-Generator?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a> <a href="https://pypi.org/project/blurgenerator/"><img alt="PyPI downloads" src="https://img.shields.io/pypi/dm/blurgenerator?style=flat-square&label=pypi&labelColor=1c1c1c&color=e6b800" /></a><br />
+<a href="https://github.com/NatLee/blur-generator"><b>blur-generator</b></a>&nbsp; <a href="https://github.com/NatLee/blur-generator/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/blur-generator?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a> <a href="https://pypi.org/project/blurgenerator/"><img alt="PyPI downloads" src="https://img.shields.io/pypi/dm/blurgenerator?style=flat-square&label=pypi&labelColor=1c1c1c&color=e6b800" /></a><br />
 <sub>Motion, lens, Gaussian and depth-aware blur, for making blurry training data.</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/NatLee/HEIC2PNG"><b>HEIC2PNG</b></a>&nbsp; <a href="https://github.com/NatLee/HEIC2PNG/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/HEIC2PNG?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a> <a href="https://pypi.org/project/heic2png/"><img alt="PyPI downloads" src="https://img.shields.io/pypi/dm/heic2png?style=flat-square&label=pypi&labelColor=1c1c1c&color=e6b800" /></a><br />
+<a href="https://github.com/NatLee/heic2png"><b>heic2png</b></a>&nbsp; <a href="https://github.com/NatLee/heic2png/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/heic2png?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a> <a href="https://pypi.org/project/heic2png/"><img alt="PyPI downloads" src="https://img.shields.io/pypi/dm/heic2png?style=flat-square&label=pypi&labelColor=1c1c1c&color=e6b800" /></a><br />
 <sub>Turn iPhone HEIC photos into PNG from the CLI, a shell pipe or Python.</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/NatLee/Batch-crop-images"><b>Batch-crop-images</b></a>&nbsp; <a href="https://github.com/NatLee/Batch-crop-images/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/Batch-crop-images?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a><br />
+<a href="https://github.com/NatLee/batch-crop-images"><b>batch-crop-images</b></a>&nbsp; <a href="https://github.com/NatLee/batch-crop-images/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/batch-crop-images?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a><br />
 <sub>Draw a crop box once and it is applied to a whole folder of images.</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/NatLee/nipype-preprocess-on-brain-MR"><b>nipype-preprocess-on-brain-MR</b></a>&nbsp; <a href="https://github.com/NatLee/nipype-preprocess-on-brain-MR/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/nipype-preprocess-on-brain-MR?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a><br />
+<a href="https://github.com/NatLee/nipype-preprocess-on-brain-mr"><b>nipype-preprocess-on-brain-mr</b></a>&nbsp; <a href="https://github.com/NatLee/nipype-preprocess-on-brain-mr/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/NatLee/nipype-preprocess-on-brain-mr?style=flat-square&label=%E2%98%85&labelColor=1c1c1c&color=d4741e" /></a><br />
 <sub>Brain MRI preprocessing with Nipype, FSL and ANTs: AC-PC alignment, skull stripping, segmentation.</sub>
 </td>
 </tr>
@@ -93,8 +93,8 @@ Most of what I build now, I build together with AI coding agents. I decide what 
 <br />
 
 <p align="center">
-  <img height="180" alt="Nat's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=NatLee&show_icons=true&icon_color=e6b800&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10&cache_seconds=86400" />
-  <img height="180" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=NatLee&layout=compact&langs_count=8&exclude_repo=claude-projects&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,batchfile,powershell&card_width=320&bg_color=121212&title_color=d4741e&text_color=bdbdbd&border_color=2a2a2a&border_radius=10&cache_seconds=86400" />
+  <img height="180" alt="Nat's GitHub stats" src="https://raw.githubusercontent.com/NatLee/natlee/output/github-stats.svg" />
+  <img height="180" alt="Most used languages" src="https://raw.githubusercontent.com/NatLee/natlee/output/top-langs.svg" />
 </p>
 
 <p align="center">
